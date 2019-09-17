@@ -1,12 +1,12 @@
 module.exports = [
   {
     title: 'Getting Started',
-    collapsable: false,
+    collapsible: false,
     children: ['introduction'],
   },
   {
     title: 'Projects',
-    collapsable: false,
+    collapsible: false,
     children: prefix('projects', [
       'the-basics',
       'environments',
@@ -16,7 +16,7 @@ module.exports = [
   },
   {
     title: 'Resources',
-    collapsable: false,
+    collapsible: false,
     children: prefix('resources', [
       'queues',
       'storage',
@@ -27,7 +27,7 @@ module.exports = [
   },
   {
     title: 'Domains',
-    collapsable: false,
+    collapsible: false,
     children: prefix('domains', [
       'registrar',
       'dns',
